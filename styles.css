@@ -1,5 +1,5 @@
 body {
-    background-color: ##d4d0d0;
+    background-color: #d4d0d0;
     color: #333;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,3 +13,57 @@ header {
     padding: 20px;
 }
 
+section {
+    margin: 20px 0 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+main {
+    h2 {
+        color: #4CAF50;
+        text-align: center;
+    }
+}
+
+.product {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        margin-top: 5px;
+    }
+}
+
+.email-field {
+    margin-bottom: 12px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+footer {
+    /*Used mb on the product class instead because it made more sense given the 2 items and wasn't needed here*/
+    padding: 20px;
+    background-color:rgb(0, 0, 0);
+
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black; /* Unsure about these two as they aren't used in the provided image */
+
+    text-align: center;
+    color: #fff;
+}   

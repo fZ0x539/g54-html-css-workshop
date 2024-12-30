@@ -1,4 +1,15 @@
 body {
-    background: #181818;
-    color: #e8f4f8;
+    background-color: ##d4d0d0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    background-color: #d10000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
